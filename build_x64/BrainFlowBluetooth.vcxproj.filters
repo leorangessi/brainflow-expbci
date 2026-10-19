@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\bluetooth\socket_bluetooth_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\bluetooth\bluetooth_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Interesting\BCI\brainflow-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7E06C2D7-F2DF-3BF5-8D6D-8D2F14DE0606}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

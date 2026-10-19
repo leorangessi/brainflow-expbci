@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\timestamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\data_buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\os_serial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\os_serial_ioctl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\serial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\libftdi_serial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\socket_client_tcp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\socket_client_udp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\socket_server_tcp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\socket_server_udp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\multicast_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\multicast_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\broadcast_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\utils\broadcast_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\openbci\galea_v4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\openbci\galea_serial_v4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\openbci\galea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\openbci\galea_serial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\openbci\openbci_serial_board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\openbci\openbci_wifi_shield_board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\openbci\ganglion_wifi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\openbci\cyton_wifi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\openbci\cyton_daisy_wifi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\openbci\expandable_eeg32_wifi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\openbci\expandable_eeg32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\openbci\ganglion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\openbci\ganglion_native.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\openbci\cyton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\openbci\cyton_daisy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\board_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\board_info_getter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\brainflow_boards.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\streaming_board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\synthetic_board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\dyn_lib_board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\bt_lib_board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\playback_file_board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\file_streamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\multicast_streamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\plotjuggler_udp_streamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\gtec\unicorn_board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\neuromd\neuromd_board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\neuromd\brainbit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\neuromd\callibri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\neuromd\callibri_eeg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\neuromd\callibri_ecg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\neuromd\callibri_emg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\neurosity\notion_osc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\mentalab\explore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\oymotion\gforce_pro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\oymotion\gforce_dual.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\freeeeg\freeeeg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\neuromd\brainbit_bled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\muse\muse_bled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\ant_neuro\ant_neuro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\enophone\enophone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\ble_lib_board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\muse\muse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\brainalive\brainalive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\emotibit\emotibit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\ntl\ntl_wifi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\src\board_controller\aavaa\aavaa_v3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Interesting\BCI\brainflow-master\third_party\ant_neuro\eemagine\sdk\wrapper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Interesting\BCI\brainflow-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7E06C2D7-F2DF-3BF5-8D6D-8D2F14DE0606}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

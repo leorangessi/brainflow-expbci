@@ -1,0 +1,5 @@
+channel_format = info.desc().append_child("channels").first_desc()  
+# channel_format.append_child("name").set_value("EEG")  
+# channel_format.append_child("unit").set_value("microVolts")  
+# channel_format.append_child("type").set_value("EEG")  
+# channel_format.append_child("dimension").set_value('0')  

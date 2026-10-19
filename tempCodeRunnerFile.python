@@ -1,0 +1,67 @@
+import brainflow  
+import time  
+from pylsl import StreamInfo, StreamOutlet, local_clock  
+  
+# 配置Brainflow参数  
+board_id = 5  # OpenBCI Cyton WiFi  
+ip_address = '192.168.31.254'  # 替换为你的OpenBCI Cyton WiFi板子的IP地址  
+#mac_address = '你的板子MAC地址'  # 替换为你的OpenBCI Cyton WiFi板子的MAC地址  
+port = 6677  # OpenBCI Cyton WiFi的默认端口  
+sampling_rate = 250  # OpenBCI Cyton的采样率  
+  
+# 初始化Brainflow板  
+params = {  
+    'ip_address': ip_address,  
+    #'mac_address': mac_address,  
+    'port': port,  
+    'board_id': board_id,  
+    'serial_port': ''  # 对于WiFi板子，不需要设置serial_port  
+}  
+  
+# 启动Brainflow板  
+brainflow.BoardShim.enable_board_logger()  
+board = brainflow.BoardShim(board_id, params)  
+board.prepare_session()  
+board.start()  
+board.config_board_settings()  
+  
+# 配置LSL流信息  
+info = StreamInfo('EEG', 'EEG_from_OpenBCI_Cyton_WiFi', 8, sampling_rate, 'float32', 'myuid12345')  
+  
+# 创建LSL输出流  
+channel_format = info.desc().append_child("channels").first_desc()  
+channel_format.append_child("name").set_value("EEG")  
+channel_format.append_child("unit").set_value("microVolts")  
+channel_format.append_child("type").set_value("EEG")  
+channel_format.append_child("dimension").set_value('0')  
+  
+outlet = StreamOutlet(info)  
+  
+try:  
+    while True:  
+        # 从Brainflow板获取数据  
+        board_data = board.get_board_data()  
+        if board_data is None:  
+            print("Failed to get data from board")  
+            continue  
+  
+        # 提取EEG数据  
+        eeg_data = board_data[0:8]  # OpenBCI Cyton有8个EEG通道  
+  
+        # 发送数据到LSL  
+        timestamp = local_clock()  
+        outlet.push_sample(eeg_data, timestamp)  
+          
+        # 打印一些调试信息  
+        print(f"Sent sample: {eeg_data} at timestamp: {timestamp}")  
+          
+        # 延迟以匹配采样率  
+        time.sleep(1.0 / sampling_rate)  
+  
+except KeyboardInterrupt:  
+    print("Stopping...")  
+finally:  
+    # 清理资源  
+    board.stop()  
+    board.release_session()  
+    outlet.close()
